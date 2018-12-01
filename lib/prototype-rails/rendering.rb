@@ -1,6 +1,6 @@
 require 'action_view/helpers/rendering_helper'
 
-module RenderUpdate do
+module RenderUpdate
   def render_with_update(options = {}, locals = {}, &block)
     if options == :update
       update_page(&block)
